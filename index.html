@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <link rel="stylesheet" href="style/index.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="boxs_1">
+        <img class="image2" src="images/man.png" width="400px" />
+      </div>
+      <div class="boxs_2">
+        <img class="image3" src="images/logo.png" />
+        <img class="image4" src="images/Get_a_FREE.png" width="400px" />
+        <div class="form">
+          <form>
+            <input
+              type="email"
+              pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$"
+              id="email"
+              placeholder="Enter your email"
+            />
+            <br />
+            <span id="emailsId"></span>
+            <br />
+            <input type="tel" id="mobiles" placeholder="Enter your mobile" />
+            <br />
+            <span id="mobilesId"></span>
+            <br />
+            <input type="submit" value="talk to us →" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+<script src="./script/index.js"></script>

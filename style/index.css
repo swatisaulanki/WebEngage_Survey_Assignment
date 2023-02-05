@@ -1,0 +1,195 @@
+body{
+    background-color: rgb(188, 215, 252);
+}
+
+
+.main_container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+  width: 80%;
+  margin-left: 100px;
+}
+
+.boxs_1 {
+  background-image: url("../images/background-1.png");
+  background-size: 550px;
+  background-repeat: no-repeat;
+  width: 50%;
+  background-position-y: 30px;
+}
+.image2 {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.boxs_2 {
+  height: 600px;
+  width: 50%;
+}
+.image3 {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+.image4 {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+.form {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+input{
+    border-radius: 9px;
+    border: none;
+
+}
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+input[type="tel"] {
+  width: 36.5vw !important;
+  border: 1px solid black;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  
+}
+input[type="submit"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+#emailsId {
+  color: red;
+  font-size: 14px;
+}
+#mobilesId {
+  color: red;
+  font-size: 14px;
+}
+::placeholder {
+  color: black;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .main_container {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100%;
+  }
+  .boxs_1 {
+    background-image: url("../images/background-1.png");
+    background-size: 450px;
+    display: block;
+    margin: auto;
+    background-position-x: 30px;
+    width: 100%;
+  }
+  .image2 {
+    width: 40%;
+    margin-top: 20px;
+    display: block;
+    margin: auto;
+    margin-left: 150px;
+  }
+  .boxs_2 {
+    width: 80%;
+  }
+  .image3 {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .image4 {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 70px;
+  }
+  input[type="email"] {
+    width: 82%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type="tel"] {
+    width: 200% !important;
+
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    width: 82%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 424px) {
+  .main_container {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100%;
+    border:1px solid rgb(23, 15, 141);
+    margin: 0px;
+  }
+  .boxs_1 {
+    background-image: url("../images/background-1.png");
+    background-size: 330px;
+    background-position-x: 15px;
+    z-index: 1;
+    display: block;
+    margin: auto;
+
+    width: 100%;
+  }
+  .image2 {
+    width: 64%;
+    margin-top: 20px;
+    display: block;
+    margin: auto;
+    margin-left: 75px;
+  }
+  .boxs_2 {
+    width: 80%;
+  }
+  .image3 {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 40px;
+  }
+  .image4 {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 40px;
+  }
+  input[type="tel"] {
+    width: 100% !important;
+
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+  }
+}

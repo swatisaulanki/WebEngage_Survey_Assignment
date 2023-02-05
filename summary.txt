@@ -1,0 +1,43 @@
+1. The My Opinion on solving this problem statement was. First I completed task 1 using HTML, CSS, JAVASCRIPT, and JQERY and after that, I asked
+to extend the deadline for task 2. Simultaneously I make sure to give enough priority to my family because due to some
+emergency, and after that emergency had been resolved then I did focus on task 2 and completed task 2 before the deadline.
+I also informed the regarded person (respective managers/customers) about that emergency and kept them updated in the future as well.
+
+Why have I chosen this approach and the facts considered before making a decision:
+- Though task1 is of low priority still takes less time to complete as compared to task2.
+- On the other hand, task 2 is complex and will take more time which was not possible due to a family emergency, and it's unavoidable.
+- I have been given a chance to extend the deadline of only one of the two assignments.
+- Because of the emergency I was not able to focus enough on a complex task and delivering low-quality work is bad than delay.
+
+
+2.  To Sumit(manager),
+Subject- Online Survey Assignment
+Dear Sir,
+As mentioned in the task1, the assignment consists of pages as follows:
+The first page contains a form that takes input from the email and contact number followed by a button said: "TALK TO US". On filled in the details and clicking the button will be redirected to the next
+page containing the ThankYou for survey message along with the user details.
+
+Tech stack used: HTML, CSS, JavaScript, Jquery.
+Features:  The form is responsive accordingly to the screen sizes.
+The form contains validation as mentioned in the task that the user can not type an invalid email (having < minimum length).
+The user can not submit the empty fields as it will show an error message.
+The mobile Number input box will take only digits and the length will be exactly 10 else show an error (Invalid contact number).
+The pages are user-friendly and attractive to engage the user's attention.
+
+Regards,
+Swati Saulanki
+
+3.  To Customer,
+Subject- Informing customer regarding project delay
+Dear Sir/Ma'am,
+I’m sorry to inform you that I was not able to deliver the given task on time initially finalized and have adjusted the timeline according to the new scenario.
+Due to a family emergency, task 2 has been delayed by three days. Our new estimated deadline is 5 Feb 2023.
+I was confident that after the issue has been solved I was able to complete the project quickly and efficiently.
+
+I appreciate your flexibility and understanding as we tackle this issue.
+Please contact me If you have any questions about the Task, the new schedule, or anything else.
+
+Thank you.
+
+Regards,
+Swati Saulanki
